@@ -114,7 +114,7 @@
  *
  * :[2400, 9600, 19200, 38400, 57600, 115200, 250000, 500000, 1000000]
  */
-#define BAUDRATE 250000
+#define BAUDRATE 115200
 
 // #define BAUD_RATE_GCODE     // Enable G-code M575 to set the baud rate
 
@@ -1639,7 +1639,7 @@
 #define Z_PROBE_OFFSET_RANGE_MAX 20
 
 // Enable the M48 repeatability test to test probe accuracy
-// #define Z_MIN_PROBE_REPEATABILITY_TEST
+#define Z_MIN_PROBE_REPEATABILITY_TEST
 
 // Before deploy/stow pause for user confirmation
 // #define PAUSE_BEFORE_DEPLOY_STOW
@@ -2816,9 +2816,6 @@
 // https://reprap.org/wiki/RepRapDiscount_Full_Graphic_Smart_Controller
 //
 #define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
-// PS: TODO - New display
-// https://www.reddit.com/r/BIGTREETECH/comments/141zwhq/how_i_got_the_tft35e3_v301_touch_mode_working_on/
-// https://github.com/bigtreetech/BIGTREETECH-TouchScreenFirmware?tab=readme-ov-file#setup-of-btt-tft35-e3-v3-with-mks-sgen-l-mainboards
 
 //
 // K.3D Full Graphic Smart Controller
